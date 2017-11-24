@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vitaviva.multipletheme.widget.ThemedLinerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/MultiThemeListItemBg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+
+    <com.vitaviva.multipletheme.widget.ThemedImageView
+        android:id="@+id/ivImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
+        app:bright="?attr/MultiThemeImageBright"
+        android:src="@mipmap/ic_launcher"/>
+
+    <com.vitaviva.multipletheme.widget.ThemedTextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:textColor="?attr/color3"
+        tools:text="@string/app_name" />
+
+
+</com.vitaviva.multipletheme.widget.ThemedLinerLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MultipleTheme">
+        <attr name="color3" format="reference|color"/>
+        <attr name="color5" format="reference|color"/>
+        <attr name="color6" format="reference|color"/>
+        <attr name="color9" format="reference|color"/>
+        <attr name="MultiThemeToolbarNavIcon" format="reference"/>
+        <attr name="MultiThemeListItemBg" format="reference|color"/>
+        <attr name="MultiThemeImageBright" format="integer"/>
+    </declare-styleable>
+
+
+</resources>

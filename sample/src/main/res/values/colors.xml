@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color3">#666666</color>
+    <color name="color3_night">#999999</color>
+    <color name="color5">#BBBBBB</color>
+    <color name="color5_night">#333333</color>
+    <color name="color6">#EEEEEE</color>
+    <color name="color6_night">#474747</color>
+    <color name="color9">@android:color/white</color>
+    <color name="color9_night">#232323</color>
+
+</resources>

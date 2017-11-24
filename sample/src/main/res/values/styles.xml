@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DayModeTheme">
+        <item name="color3">@color/color3</item>
+        <item name="color5">@color/color5</item>
+        <item name="color6">@color/color6</item>
+        <item name="color9">@color/color9</item>
+        <item name="MultiThemeToolbarNavIcon">@mipmap/ic_action_back_black</item>
+        <item name="MultiThemeListItemBg">@drawable/selector_list_item</item>
+        <item name="MultiThemeImageBright">255</item>
+    </style>
+
+    <style name="NightModeTheme">
+        <item name="color3">@color/color3_night</item>
+        <item name="color5">@color/color5_night</item>
+        <item name="color6">@color/color6_night</item>
+        <item name="color9">@color/color9_night</item>
+        <item name="MultiThemeToolbarNavIcon">@mipmap/ic_action_back_white</item>
+        <item name="MultiThemeListItemBg">@drawable/selector_list_item_night</item>
+        <item name="MultiThemeImageBright">-255</item>
+    </style>
+
+</resources>
