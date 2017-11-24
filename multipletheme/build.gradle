@@ -1,7 +1,9 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
+    buildToolsVersion "25.0.1"
 
     defaultConfig {
         minSdkVersion 14
@@ -9,6 +11,10 @@ android {
         versionCode 1
         versionName "1.0"
 
+    }
+
+    lintOptions {
+        abortOnError false
     }
 
     buildTypes {
@@ -26,4 +32,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     compile 'com.android.support:design:25.1.0'
     compile 'com.android.support:percent:25.1.0'
+}
+
+publish {
+    userOrg = 'vitaviva'
+    groupId = 'com.vitaviva'
+    artifactId = 'multipletheme'
+    publishVersion = '1.0.0'
+    desc = 'change theme dynamicly for night-mode and so on'
+    website = 'https://github.com/vitaviva/MultipleTheme'
 }
